@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+site-logo{
+    height: 100px;
+}
+.menu-list{
+    list-style: none;
+    /* display: flex; */
+    /* gap: 20px; */
+    font
+}
+
+.apply-button{
+    background-color: red;
+    color:white;
+    font-size: 20px;
+    border: none;
+    /* justify-content: center; */
+    padding: 15px;
+
+}
+.list-items{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    text-decoration-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.list-items li a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+}
+.hero-section{
+    height:800px;
+    /* background-color: red; */
+    background-image: url("https://www.chitwancollege.edu.np/Frontend/assets/images/homebanner.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+    align-items:center;
+    padding: 80px;
+    padding-left: 8.px;
+    
+    display: flex;
+   
+    
+
+
+}
+.face-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.face-section h3{
+    font-family: sans-serif;
+    font-size: 55px;
+    text-decoration-style:none;
+    color: white;
+    position: relative;
+    right: 60px;
+    bottom: 25px;
+    text-decoration:none;
+    margin: 25px;
+
+}
+.hero-section h4{
+    padding: 15px;
+    display: inline;
+    background-color: white;
+    position: relative;
+    bottom: 50px;
+    right: 110px;
+    color: brown;
+    font-size: 22px;
+}
+.face1section{
+    position:relative;
+    left:200px;
+    top: 30px;
+
+}

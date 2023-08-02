@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    align-items: center;
+   
+}
+.menu-list ul{
+    display:flex;
+    padding: 0 10px;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 20px;
+
+}
+.menu-list ul li{
+    margin: 0 20px;
+
+}
+.menu-list ul li a{
+    text-decoration: none;
+    color:black;
+}
